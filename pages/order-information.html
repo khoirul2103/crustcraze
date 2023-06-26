@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../frontend/libraries/bootstrap/css/bootstrap.css">
+    <!--My Css-->
+    <link rel="stylesheet" href="../frontend/style/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <title>CrustCraze</title>
+  </head>
+  <link rel="icon" type="image/x-icon" href="../frontend/img/favicon.png">
+  <body>
+
+<!--Header-->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="../frontend/img/logo.png" style="cursor: pointer;">
+            </div>
+            <div class="col-8">
+              <div class="topnav" style="text-align: right">
+                  <a class="active" href="/index.html">Home</a>
+                  <a href="#categories">Menu</a>
+                  <a href="#promo">Promo</a>
+                  <a href="#about">Sign In</a>
+                  <a href="#about">Sign Out</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--TUTUP Header-->
+
+<!--MY ORDER SECTION-->
+<section class="my-order">
+    <div class="container">
+        <h3 class="main-title">MY ORDER</h3> <br> <br>
+
+        <a href="/index.html" style="text-decoration:none; color:black;">
+            <h6><i class="fa fa-home" aria-hidden="true"> <i>back to home</i></i>
+        </a> <br><br>
+    
+    <div class="row">
+        <div class="col-6">
+            <div class="item-list">
+                <table>
+                    <tr>
+                        <td style="width: 55%;">
+                            Item list
+                        </td>
+                        <td style="width: 30%;">
+                            Quantity
+                        </td>
+                        <td style="width: 40%;">
+                            Price
+                        </td>
+                    </tr>
+
+                    <tr style="height: 190px;">
+                        <td style="width: 55%;">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img src="../frontend/img/item-list.png">
+                                </div>
+                                <div class="col-7">
+                                    <b>Deluxe Chicken Delight</b>
+                                </div>
+                            </div>
+                           
+                        </td>
+                        <td style="width: 30%;">
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </td>
+                        <td style="width: 40%;">
+                            IDR105.000,00
+                        </td>
+                    </tr>
+
+                    <tr class="total-harga">
+                        <td style="width: 55%;"></td>
+                        <td style="width: 30%; text-align: right; padding-right: 15px;">
+                            Total Item <br>
+                            Delivery Fee <br>
+                            Tax Fee <br>
+                            <b>Total Order</b> 
+                        </td>
+                        <td style="width: 40%;">
+                            IDR105.000,00 <br>
+                            IDR15.000,00 <br>
+                            IDR2.500,00 <br>
+                            <b>IDR122.500,00</b>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        <div class="col-6">
+            <div class="order-information">
+
+                    <h5 style="text-align: left;padding: 10px;">
+                    Service Method
+                    </h5>
+                    <div class="row" >
+                        <div class="col-6">
+
+                            <div class="row" >
+                                <div class="col-8">
+                                    <label for="cod">Delivery (COD)</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="radio" name="service-method">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-8">
+                                    <label for="carryout">Carryout</label>
+
+                                </div>
+                                <div class="col-4">
+                                    <input type="radio" name="service-method">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5 style="text-align: left;padding: 10px;">
+                        Order Timing
+                    </h5>
+                    <div class="row">
+ 
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-8">
+                                    <label for="now">Now</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="radio" name="timing">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-8">
+                                    <label for="now">Later</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="radio" name="timing">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5 style="text-align: left;padding: 10px;">
+                        Full Name
+                    </h5>
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="text" class="text" style="background-color: #fcf0f0;order: none;
+                            border-radius: 5px; width:100%; border:none;">
+                        </div>
+                    </div>
+
+                    <h5 style="text-align: left;padding: 10px;">
+                        Phone Number
+                    </h5>
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="text" class="text" style="background-color: #fcf0f0;order: none;
+                            border-radius: 5px; width:100%; border:none;">
+                        </div>
+                    </div>
+
+                    <h5 style="text-align: left;padding: 10px;">
+                        My Location
+                    </h5>
+                    <div class="row">
+                        <div class="col-12">
+                            <textarea name="" id="" cols="30" rows="5"></textarea>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--MY ORDER-PRODUCT SECTION-->
+
+<!--BUTTON CHECKOUT-->
+<div class="button-order">
+    <div class="container">
+        <a href="/pages/success-order.html">
+            <button>
+                CHECKOUT
+            </button>
+        </a>
+    </div>
+</div>
+<!--TUTUP BUTTON CHECKOUT-->
+
+<!--FOOTER-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="../frontend/img/logo-footer.png" alt="logo-footer">
+            </div>
+            <div class="col-1"></div>
+            <div class="col-2">
+                <h5>ABOUT US</h5>
+                <p>
+                Brand Story <br>
+                CSR <br>
+                Menu <br>
+                Gift Voucher <br>
+                Outlet Locations
+                </p>
+            </div>
+            <div class="col-3">
+                <h5>SERVICE & POLICIES</h5>
+                <p>
+                Contact Us <br>
+                FAQs <br>
+                Privacy Policy <br>
+                Terms of use <br>
+                </p>
+            </div>
+            <div class="col-3">
+                <h5>Connect With Us</h5>
+                <p>
+                Facebook  CrustCraze <br>
+                Twitter @CrustCraze <br>
+                Youtube CrustCraze <br>
+                Instagram @CrustCraze <br>
+                </p>
+            </div>
+        </div>
+
+    </div>        
+    <div class="row" style="background-color:#CC3430; padding-top: 15px;padding-bottom: 15px; margin-top: 40px;">
+        <div class="col-12">
+            <p style="text-align: center;">Copyright CrustCraze 2022-2027 All Right Reserved</p>
+        </div>
+    </div>
+</footer>
+<!--TUTUP FOOTER-->
+
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="/friedchicken/frontend/libraries/bootstrap/js/bootstrap.js"></script>
+
+
+  </body>
+</html>

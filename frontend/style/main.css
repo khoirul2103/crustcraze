@@ -1,0 +1,411 @@
+/*HEADER*/
+.header {
+    background-color: #CC3430;
+}
+.topnav {
+    padding-bottom: 31px;
+    padding-top: 32px;
+}
+.topnav a {
+    text-align: right;
+    padding-left: 45px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.topnav a:hover {
+    color: #FDD835;
+}
+/*TUTUP HEADER*/
+.hero-section {
+    background-image: url("../img/hero1.png");
+    width: 1441px;
+    height: 577px;
+    background-size: contain;
+}
+.hero-section img{
+    width: 100%;
+}
+.text-hero h1 {
+    font-size: 64px;
+    font-family: Bangers;
+    padding-top: 200px;
+
+    color: #FFFFFF;
+}
+.text-hero p {
+    width: 235px;
+    height: 63px;
+    flex-shrink: 0;
+
+    color: #571414;
+    font-size: 40px;
+    font-family: Bangers;
+    padding-left: 15px;
+
+    border-radius: 0px 35px 35px 0px;
+    background: #FDD835;
+}
+.text-hero p:hover {
+    position: relative;
+    bottom: 5px;
+    box-shadow: 14px 21px 20px -9px #000;
+}
+.hero-section a {
+    text-decoration: none;
+}
+/*BANNER PROMO SECTION*/
+.banner-promo {
+    background-color: #47332C;
+    padding: 30px;
+}
+.banner-promo img {
+    max-width: 100%;
+    cursor: pointer;
+}
+.banner-promo img:hover {
+    position: relative;
+    bottom: 5px;
+    box-shadow: 14px 21px 20px -9px #000;
+}
+/*TUTUP BANNER PROMO SECTION*/
+
+.main-title {
+    font-family: open sans;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+/*CATEGORIES*/
+.hot-promo {
+
+    padding-top: 65px;
+    padding-bottom: 55px;
+
+    background-color: #FDD835;
+}
+.banner-row .row {
+    margin: 10px -16px;
+  }
+/* Add padding BETWEEN each column */
+.banner-row.row,
+.row > .column {
+    padding: 15px;
+}
+  
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    display: none; 
+    /* Hide all elements by default */
+}
+  
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Content */
+.content {
+    background-color: white;
+    padding-bottom: 55px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content:hover {
+    position: relative;
+    bottom: 7px;
+    box-shadow: 14px 21px 20px -9px #000;
+}
+.content img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content h4 {
+    text-align: center;
+    font-family: open sans;
+    font-style: 400;
+    font-size: 18px;
+
+    padding-top: 5px;
+    margin-top: 25px;
+}
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .hot-promo button {
+    font-family: open sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  .hot-promo button:hover {
+    background-color: none;
+    border-width: 3px black;
+  }
+  
+  .hot-promo button :active {
+    background-color: #666;
+    color: white;
+    border: black;
+  }
+  /*TUTUP CATEGORIES*/
+
+/*MID BANNER*/
+.mid-banner {
+    background-color: #FDD835;
+}
+.mid-banner img {
+    margin-top: 45px;
+    margin-bottom: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+.mid-banner img:hover {
+    position: relative;
+    bottom: 5px;
+    box-shadow: 14px 21px 20px -9px #000;
+}
+/*TUTUP MID BANNER*/
+
+/*PRODUCT SECTION SECTION*/
+.background-detail-product {
+    background-color: #FDD835;
+}
+.detail-product {
+    padding-top: 100px;
+}
+.detail-product .col-9{
+    background-color: white;
+    border: 2px solid #D9D9D9 ;
+
+    padding: 45px;
+
+    border-radius: 10px;
+}
+.detail-product h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    margin-bottom: 25px;
+}
+.content {
+    background-color: white;
+    border: 2px solid #D9D9D9 ;
+    padding-bottom: 55px;
+    border-radius: 10px;
+    
+}
+.content img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content h4 {
+    text-align: center;
+    font-family: open sans;
+    font-style: 400;
+    font-size: 18px;
+
+    padding-top: 5px;
+    margin-top: 25px;
+}
+.content-detail-product h5{
+    font-size: 30px;
+    font-family: open sans;
+    font-style: 400;
+}
+.content-detail-product p{
+    font-size: 20px;
+    font-family: open sans;
+    font-style: 400;
+}
+.content-detail-product select {
+    width: 80%;
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*PRODUCT SECTION SECTION*/
+.button-order {
+    text-align: right;
+}
+.button-order button {
+    background-color: #ED1A23;
+    border: none;
+    border-radius: 20px;
+
+    height: 87px;
+    width: 220px;
+
+    margin-top: 45px;
+    margin-bottom: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+
+    color: white;
+}
+
+/*BUTTON ORDER PRODUCT*/
+
+/*TUTUP BUTTON ORDER PRODUCT*/
+
+
+/*PRODUCT SECTION SECTION*/
+.my-order {
+    margin-top: 100px;
+}
+.item-list {
+    background-color: #FDD835;
+    padding: 15px;
+    border-radius: 20px;
+}
+.order-information {
+    background-color: #FDD835;
+    padding: 15px;
+    border-radius: 20px;
+   
+}
+.order-information h1 {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 25px;
+}
+.order-information p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.order-information textarea  {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #fcf0f0;
+}
+
+
+/*PRODUCT SECTION SECTION*/
+
+
+/*BUTTON ORDER PRODUCT*/
+.button-order {
+    text-align: right;
+}
+.button-order button {
+    border-radius: 20px;
+    background: #CC3430;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.35);
+
+    height: 87px;
+    width: 220px;
+
+    margin-top: 45px;
+    margin-bottom: 210px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+
+    color: white;
+}
+.button-order button:hover {
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*TUTUP BUTTON ORDER PRODUCT*/
+
+.main-title {
+    font-family: open sans;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+/*SUCCESS ORDER*/
+.success-order img {
+    margin-top: 150px;
+    margin-bottom: 80px;
+
+
+    width: 690px;
+    height: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.success-order p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    
+
+    text-align: center;
+}
+.success-order h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+
+    margin-bottom: 150px;
+}
+/*TUTUP SUCCESS ORDER*/
+
+/*FOOTER*/
+.footer {
+    background-color: #47332C;
+    color: white;
+    padding-top: 30px;
+}
+.footer h5 {
+    font-family: open sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    padding-top: 45px;
+}
+.footer p {
+    font-family: open sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+}
+/*TUTUP FOOTER*/
